@@ -120,7 +120,7 @@ nav p {
 }
 
 .content-whatido {
-    top: 1020px;
+    top: 1000px;
     width: 500px;
     padding-left: 20px;
     position: absolute;
@@ -132,8 +132,8 @@ nav p {
 }
 
 #hero-right {
-    height: 1073px;
-    width: 898px;
+    height: 673px;
+    width: 498px;
     position: absolute;
     top: 50px;
     left: 50%;
@@ -146,8 +146,8 @@ nav p {
 }
 
 .nameblock img {
-    width: 500px;
-    margin: 0 100px;
+    width: 440px;
+    margin: 0 60px;
 }
 
 .kate {
