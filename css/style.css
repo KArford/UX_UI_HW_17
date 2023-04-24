@@ -15,7 +15,7 @@ nav {
 nav p {
     color: white;
     padding: 10px;
-    font-size: 22px;
+    font-size: 18px;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     position: absolute;
@@ -109,7 +109,7 @@ nav p {
 }
 
 .content-background img {
-   height: 744px;
+   height: 70%;
    width: 40%;
    position: fixed;
 }
