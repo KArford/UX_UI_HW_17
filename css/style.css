@@ -70,8 +70,8 @@ nav p {
 
 .content-topleft {
     background-color: #F6DF63;
-    height: 441px;
-    width: 318px;
+    height: 341px;
+    width: 238px;
     padding: 0;
     margin: 0;
     top:0;
@@ -89,19 +89,19 @@ nav p {
 }
 
 .content-topright img {
-    height: 441px;
-    width: 318px;
+    height: 341px;
+    width: 238px;
     padding: 0;
     margin: 0;
     top: 0;
-    left: 318px;
+    left: 238px;
     position: absolute;
 }
 
 .content-bottom img {
     height: 297x;
-    width: 636px;
-    top: 438px;
+    width: 475px;
+    top: 338px;
     left: 0;
     padding: 0;
     margin: 0;
@@ -109,7 +109,7 @@ nav p {
 }
 
 .content-background img {
-   height: 1000px;
+   height: 744px;
    width: 40%;
    position: fixed;
 }
@@ -128,7 +128,7 @@ nav p {
 
 .content-whatido p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #hero-right {
@@ -139,20 +139,20 @@ nav p {
     left: 50%;
 }
 .nameblock {
-    width: 800px;
+    width: 500px;
     display: block;
     left: 40px;
     bottom: 0;
 }
 
 .nameblock img {
-    width: 700px;
+    width: 500px;
     margin: 0 100px;
 }
 
 .kate {
     font-family: 'Fraunces', serif;
-    font-size: 160px;
+    font-size: 95px;
     margin: 0;
     text-align: left;
 }
@@ -160,12 +160,12 @@ nav p {
 .nameblock h3 {
     text-align: right;
     font-family: 'Fraunces'; serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .content-rightheroimg img{
-    height: 775px;
-    width: 771px;
+    height: 471px;
+    width: 475px;
     position: absolute;
 }
 
