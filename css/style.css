@@ -1,11 +1,9 @@
 /* Body */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
-
 
 /* Navigation styles */
 .inline-block{
     background-color: #222121;
-    position: fixed;
+    position: absolute;
     width: 95px;
     top: 0;
     left: 40%;
@@ -20,6 +18,7 @@
     font-size: 22px;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+    position: absolute;
   }
 
 .contact {
@@ -60,11 +59,24 @@
 
 /* Hero section styles */
 
+#hero-left {
+    display: flex;
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    width: fit-content;
+    position: absolute;
+}
+
 .content-topleft {
     background-color: #F6DF63;
-    height: 600px;
-    width: 500px;
-    padding: 25px;
+    height: 441px;
+    width: 318px;
+    padding: 0;
+    margin: 0;
+    top:0;
+    left: 0;
+    position: absolute;
 }
 
 .hei {
@@ -73,22 +85,33 @@
     font-style: normal;
     font-size: 45px;
     text-align: left;
-    padding: 25px;
+    padding: 30px;
 }
 
-.content-topright {
-   height: 600px;
-   padding: 25px;
+.content-topright img {
+    height: 441px;
+    width: 318px;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 318px;
+    position: absolute;
 }
 
-.content-bottom {
-    height: 600px;
-    padding: 25px;
+.content-bottom img {
+    height: 297x;
+    width: 636px;
+    top: 438px;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
 }
 
-.content-background {
-   height: 600px;
-   padding: 25px;
+.content-background img {
+   height: 1000px;
+   width: 40%;
+   position: fixed;
 }
 
 .content-rightheroimg {
@@ -97,18 +120,42 @@
 }
 
 .content-whatido {
+    top: 1020px;
     width: 500px;
-    margin: 0 auto;
+    padding-left: 20px;
+    position: absolute;
 }
 
-.nameblock{
-    width: 500px;
-    margin: 0 auto;
+.content-whatido p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
-.content-rightheroimg {
-    height: 600px;
-    padding: 25px;   
+#hero-right {
+    height: 1073px;
+    width: 898px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+}
+.nameblock {
+    width: 500px;
+    display: block;
+    left: 40px;
+    bottom: 10px;
+}
+
+.kate {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.content-rightheroimg img{
+    height: 875px;
+    width: 871px;
+    position: absolute;
 }
 
 
