@@ -142,7 +142,7 @@ nav p {
     width: 800px;
     display: block;
     left: 40px;
-    bottom: 5px;
+    bottom: 0;
 }
 
 .nameblock img {
@@ -152,7 +152,7 @@ nav p {
 
 .kate {
     font-family: 'Fraunces', serif;
-    font-size: 150px;
+    font-size: 160px;
     margin: 0;
     text-align: left;
 }
